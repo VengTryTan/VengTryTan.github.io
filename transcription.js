@@ -14,7 +14,7 @@ jQuery(function($) {
 
     $.ajax({
       method:'POST',
-      url: 'https://api-platform.systran.net/multimodal/speech/transcribe?key=c5e18751-c8b7-4e81-b2f7-e8117e3cfa65&lang=en',
+      url: 'https://api-platform.systran.net/multimodal/speech/transcribe?key=c5e18751-c8b7-4e81-b2f7-e8117e3cfa65&lang=jpn',
       data: data,
       cache: false,
       contentType: false,
