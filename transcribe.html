@@ -3,46 +3,41 @@
 <head>
     <meta charset="utf-8">
     <title>Speech demo</title>
-    <link href="speech-transcribe.css" rel="stylesheet">
+    <link href="speech-lid.css" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="speech-transcribe.js"></script>
+    <script type="text/javascript" src="speech-lid.js"></script>
     <style>
-    #transcribing {
+        #speechLidAnalyzing {
     color: #428bca;
     font-style: italic;
-    display: inline-block;
     margin-left: 15px;
 }
 
-#transcribing.hidden {
+#speechLidResult {
+    font-style: italic;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#speechLidAnalyzing.hidden {
     display:none;
 }
 
 .controls * {
     vertical-align: top;
 }
-
-#transcription {
-    overflow: auto;
-    height: 100px;
-    font-family: monospace;
-    font-size: 14px;
-    background: whitesmoke;
-    padding: 10px;
-    margin-top: 10px;
-}
     </style>
 </head>
 <body>
     <div class="controls">
         <audio controls>
-            <source id="audioSource" src="abc.m4a" type="audio/mpeg">
+            <source id="speechLidAudioSource" src="abc.m4a" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
 
-        <button type="button" id="transcribeButton" data-t>Transcribe</button>
-        <div id="transcribing" class="hidden"data-t>Transcribing...</div>
+        <button type="button" id="speechLidButton" data-t>Analyze</button>
+        <span id="speechLidResult" class="hidden"></span>
+        <span id="speechLidAnalyzing" class="hidden" data-t>Analyzing...</span>
     </div>
-    <div id="transcription" />
 </body>
 </html>
