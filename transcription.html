@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Speech demo</title>
+    <link href="speech-transcribe.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="transcription.js"></script>
+</head>
+<body>
+    <div class="controls">
+        <audio controls>
+            <source id="audioSource" src="abc.m4a" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <button type="button" id="transcribeButton" data-t>Transcribe</button>
+        <div id="transcribing" class="hidden"data-t>Transcribing...</div>
+    </div>
+    <div id="transcription" />
+</body>
+</html>
