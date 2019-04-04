@@ -15,7 +15,7 @@ jQuery(function($) {
 
     $.ajax({
       method:'POST',
-      url: 'https://api-platform.systran.net/multimodal/speech/detectLanguage?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+      url: 'https://api-platform.systran.net/multimodal/speech/detectLanguage?key=c5e18751-c8b7-4e81-b2f7-e8117e3cfa65',
       data: data,
       cache: false,
       contentType: false,
