@@ -1,0 +1,25 @@
+﻿<div id="google_translate_element"></div>
+
+<!-- Dropdown Display -->
+<!-- <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'jp', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script> -->
+
+
+<!-- Vertical Display -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<!-- Horizontal Display -->
+<!-- <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+}
+</script>-->
+
+<script type="text/javascript" src="./f.txt"></script>

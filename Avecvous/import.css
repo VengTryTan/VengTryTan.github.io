@@ -1,0 +1,30 @@
+/* -----------------------------------------------------
+import.css(not import Win/Mac IE4~5x,NN4x )
+----------------------------------------------------- */
+
+/* default style reset */
+@import "http://www.avecvous.co.jp/css/reset.css";
+
+/* common(header,footer,navigation,etc)*/
+@import "http://www.avecvous.co.jp/css/base.css";
+
+/* SPcommon(header,footer,navigation,etc)*/
+@import "http://www.avecvous.co.jp/css/sp_base.css";
+
+/* font-size */
+@import "http://www.avecvous.co.jp/css/font.css";
+
+/* WebFont */
+@import "http://www.avecvous.co.jp/css/whhg.css";
+
+/* SPfont-size */
+@import "http://www.avecvous.co.jp/css/sp_font.css";
+
+/* style */
+@import "http://www.avecvous.co.jp/css/style.css";
+
+/* SPstyle */
+@import "http://www.avecvous.co.jp/css/sp_style.css";
+
+/* pop */
+@import "http://www.avecvous.co.jp/css/pop.css";
