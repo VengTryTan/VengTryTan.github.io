@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Avecvous Chatbot</title>
+<script id="anybot"                 src="https://anybot.me/js/anybot.sdk.js?style=embed"                 bot_id="3805" locale="ja_JP" label="ご質問事項"  start_act="125967"></script>
+<body>
+  
+</body>
+</html>
